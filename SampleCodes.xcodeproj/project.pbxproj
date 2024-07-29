@@ -11,6 +11,7 @@
 		948C9AAE2C57D30400C7748E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948C9AAD2C57D30400C7748E /* ContentView.swift */; };
 		948C9AB02C57D30500C7748E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948C9AAF2C57D30500C7748E /* Assets.xcassets */; };
 		948C9AB32C57D30500C7748E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948C9AB22C57D30500C7748E /* Preview Assets.xcassets */; };
+		948C9ABB2C57D34B00C7748E /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948C9ABA2C57D34B00C7748E /* NavigationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		948C9AAD2C57D30400C7748E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		948C9AAF2C57D30500C7748E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		948C9AB22C57D30500C7748E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		948C9ABA2C57D34B00C7748E /* NavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		948C9AAA2C57D30400C7748E /* SampleCodes */ = {
 			isa = PBXGroup;
 			children = (
+				948C9AB92C57D33900C7748E /* NavigationManager */,
 				948C9AAB2C57D30400C7748E /* SampleCodesApp.swift */,
 				948C9AAD2C57D30400C7748E /* ContentView.swift */,
 				948C9AAF2C57D30500C7748E /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				948C9AB22C57D30500C7748E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		948C9AB92C57D33900C7748E /* NavigationManager */ = {
+			isa = PBXGroup;
+			children = (
+				948C9ABA2C57D34B00C7748E /* NavigationManager.swift */,
+			);
+			path = NavigationManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				948C9AAE2C57D30400C7748E /* ContentView.swift in Sources */,
 				948C9AAC2C57D30400C7748E /* SampleCodesApp.swift in Sources */,
+				948C9ABB2C57D34B00C7748E /* NavigationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
